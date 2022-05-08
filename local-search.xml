@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>测试文章</title>
+    <link href="/2022/05/08/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
+    <url>/2022/05/08/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="这是一篇测试文章，这是文章的一级标题"><a href="#这是一篇测试文章，这是文章的一级标题" class="headerlink" title="这是一篇测试文章，这是文章的一级标题"></a>这是一篇测试文章，这是文章的一级标题</h1><p>一级标题下面只有这一行字</p><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><p>二级标题下试着插入一张图片<br>使用doge图床</p><p><img src="https://i.jpg.dog/file/jpg-dog/e8d90fcd78504bf7bca5b5039a88d3b6.png" alt="头像图片"></p><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><p>三级标题下试着插入一段视频</p><iframe src="//player.bilibili.com/player.html?aid=298807756&bvid=BV1KF411M77B&cid=713700563&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><p>好像没什么可插入的了？<br>插个表情包试试 </p><p>:smirk:</p><p>插入emoji似乎失败了</p><p><img src="https://n.sinaimg.cn/tech/transform/407/w210h197/20220112/050e-2afe70bd4cf6c40e0a5837d9fbfc45ba.gif"></p><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><p>插两行代码试试</p><p><code>hello world</code></p><figure class="highlight python"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs python"><span class="hljs-built_in">print</span> <span class="hljs-string">&quot;hello world&quot;</span><br></code></pre></td></tr></table></figure><p>大功告成了，上传上去看看会怎样</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>测试文章</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>测试文章</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
