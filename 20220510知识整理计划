@@ -21,12 +21,12 @@
     <meta name="description" content="知识整理计划引言创建这个个人博客网站的动机，纯粹是因为觉得那些有自己的博客，在互联网上分享知识并且切实给我提供到帮助的人是真的cool，他们的博客在我学习各种语言和完成各种课程作业时提供了巨大的帮助。过去两年里尝试过在国内的腾讯云、阿里云上买服务器来搭建个人网站，但是都苦于对服务器、域名等等有关的各种繁琐知识技术的缺乏和备案流程的麻烦而无疾而终。然而在对创建个人网站的探索中倒也积累了不少网页设计、">
 <meta property="og:type" content="article">
 <meta property="og:title" content="知识整理计划">
-<meta property="og:url" content="https://www.randaho.com/2022/05/10/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86%E8%AE%A1%E5%88%92/index.html">
+<meta property="og:url" content="https://www.randaho.com/20220510%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86%E8%AE%A1%E5%88%92">
 <meta property="og:site_name" content="randaho的博客">
 <meta property="og:description" content="知识整理计划引言创建这个个人博客网站的动机，纯粹是因为觉得那些有自己的博客，在互联网上分享知识并且切实给我提供到帮助的人是真的cool，他们的博客在我学习各种语言和完成各种课程作业时提供了巨大的帮助。过去两年里尝试过在国内的腾讯云、阿里云上买服务器来搭建个人网站，但是都苦于对服务器、域名等等有关的各种繁琐知识技术的缺乏和备案流程的麻烦而无疾而终。然而在对创建个人网站的探索中倒也积累了不少网页设计、">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-05-10T06:33:18.000Z">
-<meta property="article:modified_time" content="2022-05-10T07:31:13.366Z">
+<meta property="article:modified_time" content="2022-05-10T08:04:22.294Z">
 <meta property="article:author" content="randaho">
 <meta property="article:tag" content="我要用这个博客写什么">
 <meta name="twitter:card" content="summary_large_image">
@@ -250,7 +250,7 @@
             <div class="markdown-body">
               <h1 id="知识整理计划"><a href="#知识整理计划" class="headerlink" title="知识整理计划"></a>知识整理计划</h1><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p><strong>创建这个个人博客网站的动机</strong>，纯粹是因为觉得那些有自己的博客，在互联网上分享知识并且切实给我提供到帮助的人是真的cool，他们的博客在我学习各种语言<del>和完成各种课程作业</del>时提供了巨大的帮助。过去两年里尝试过在国内的腾讯云、阿里云上买服务器来搭建个人网站，但是都苦于对服务器、域名等等有关的各种繁琐知识技术的缺乏和备案流程的麻烦而无疾而终。<br><strong>然而在对创建个人网站的探索中倒也积累了不少网页设计、域名服务之类的知识，且催生了越来越多的兴趣，这帮助我最终成功地搭建了这个个人博客。</strong>上周尝试了用<a target="_blank" rel="noopener" href="https://www.blogger.com/">blogger</a>来搭建一个<a target="_blank" rel="noopener" href="https://2dotherightthing.blogspot.com/">个人博客</a>，并且通过重定向到一个个人的域名来使得在墙内访问可行（为什么我不备案呢，因为备案很麻烦而且国内云服务商会各种噶韭菜），虽然成功了，但是在墙内访问速度还是堪忧，加之在blogger上进行网页diy的可能性过小、文字编辑不方便等等原因，最后我还是选择了<a target="_blank" rel="noopener" href="https://blog.csdn.net/yaorongke/article/details/119089190">hexo+github pages</a>的方式来搭建博客，在这个过程中还顺便注册了randaho.com域名（顺便还开了邮箱<del>欢迎骚扰</del>）。</p>
 <h2 id="我准备在这个博客写些什么"><a href="#我准备在这个博客写些什么" class="headerlink" title="我准备在这个博客写些什么"></a>我准备在这个博客写些什么</h2><p><em>最开始创建这个博客的时候是没有想清楚要写些什么的，只是觉得有一个个人网站很酷。</em>那时候的设想是在博客上写一些个人的随想、日记、读书笔记之类的垃圾话，但是后来想想，一方面是没有这种欲望，另一方面写这些东西还发在这么小的一个博客上确实也没有什么意义。思前想后，我觉得自己还算有价值的，可能就是在北京某top3高校这三年里积累的许多特别的知识。<br>像是对劳动法律法规的分析、梳理和判例评析，人力资源管理知识的系统整理，以及各种其他的专业知识理论，在网上似乎有大量的类似内容，<strong>但是总是难以找到一个系统的、有针对性的梳理</strong>。虽然这些知识在教材上都有系统的呈现，但若是不能在搜索引擎上检索到，似乎意义也不大。因此，我希望能把在课堂上的所学，以详细完整的学习笔记&#x2F;知识整理的形式，辅之以<em>网页的灵活性质</em>（可以在不同页面间跳转、方便引用其他网页、可以自由地插入图片视频、markdown+html的高质量排版、可以被搜索引擎检索到、、），帮助实现这些知识更广泛的传播和普及，同时在这个过程中加深自己对专业知识的理解。<br>此外，我还有可能在这里上传一些自己并没有系统（指上课）学过的知识的整理，以及一些学习研究期间的<del>自认为</del>高价值的论文，幸许能帮助到后来者更好地掌握知识。<del>虽然现在就这样说多少有些自大，但梦想总是要有的。</del></p>
-<h2 id="我准备怎么写这些内容"><a href="#我准备怎么写这些内容" class="headerlink" title="我准备怎么写这些内容"></a>我准备怎么写这些内容</h2><p>作为一名不太典型的<del>油腻</del>管理学学生，当然要<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E7%BB%93%E6%9E%84%E5%8C%96%E4%BF%A1%E6%81%AF/3608157">结构化</a>啦。我大概会把这些内容分成不同的学科或者课程之类的，先写一个大纲<del>先开一个大坑</del>，然后再慢慢把大纲里的内容完成，把大纲中的内容通过超链接的形式链接到每一次完善的章节。最后再做一个包含所有学科&#x2F;课程的页面，方便浏览者跳选到需要浏览的学科&#x2F;课程。<br>今年年中还要专心于保研的各项琐事。如果保研成功，这项工作也许会很快就开始，如果保研失败，我大概会在去香港与考研间选一个投入大量的时间精力，那么对博客的更新和维护可能就要到明年甚至更远以后了。<del>随缘了啦</del><br>有缘人看到以后的博客的话，评论功能我已经做好了，欢迎留言想要看的内容<del>，也许我正好学过可以写一点呢</del>，也欢迎通过邮箱<a href="mailto:&#98;&#108;&#111;&#103;&#x40;&#114;&#97;&#x6e;&#x64;&#x61;&#104;&#x6f;&#x2e;&#x63;&#x6f;&#x6d;">&#98;&#108;&#111;&#103;&#x40;&#114;&#97;&#x6e;&#x64;&#x61;&#104;&#x6f;&#x2e;&#x63;&#x6f;&#x6d;</a>联系我。</p>
+<h2 id="我准备怎么写这些内容"><a href="#我准备怎么写这些内容" class="headerlink" title="我准备怎么写这些内容"></a>我准备怎么写这些内容</h2><p>作为一名不太典型的<del>油腻</del>管理学学生，当然要<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E7%BB%93%E6%9E%84%E5%8C%96%E4%BF%A1%E6%81%AF/3608157">结构化</a>啦。我大概会把这些内容分成不同的学科或者课程之类的，先写一个大纲<del>先开一个大坑</del>，然后再慢慢把大纲里的内容完成，把大纲中的内容通过超链接的形式链接到每一次完善的章节。最后再做一个包含所有学科&#x2F;课程的页面，方便浏览者跳选到需要浏览的学科&#x2F;课程。<br>今年年中还要专心于保研的各项琐事。如果保研成功，这项工作也许会很快就开始，如果保研失败，我大概会在去香港与考研间选一个投入大量的时间精力，那么对博客的更新和维护可能就要到明年甚至更远以后了。<del>随缘了啦</del><br>有缘人看到以后的博客的话，评论功能我已经做好了，欢迎留言想要看的内容<del>，也许我正好学过可以写一点呢</del>，也欢迎通过邮箱<a href="mailto:&#98;&#108;&#x6f;&#103;&#x40;&#x72;&#x61;&#x6e;&#100;&#x61;&#104;&#x6f;&#x2e;&#x63;&#111;&#109;">&#98;&#108;&#x6f;&#103;&#x40;&#x72;&#x61;&#x6e;&#100;&#x61;&#104;&#x6f;&#x2e;&#x63;&#111;&#109;</a>联系我。</p>
 
             </div>
             <hr>
@@ -278,11 +278,17 @@
                   <article class="post-prev col-6">
                     
                     
+                      <a href="/20220529%E2%80%9C%E7%AD%B9%E6%AC%BE%E6%82%96%E8%AE%BA%E2%80%9D%EF%BC%9A%E5%AE%B6%E5%BA%AD%E7%BB%8F%E6%B5%8E%E7%8A%B6%E5%86%B5%E3%80%81%E7%A4%BE%E4%BC%9A%E8%B5%84%E6%9C%AC%E3%80%81%E7%BD%91%E7%BB%9C%E5%B9%B3%E5%8F%B0%E5%AF%B9%E7%96%BE%E7%97%85%E4%BC%97%E7%AD%B9%E6%95%88%E6%9E%9C%E7%9A%84%E5%BD%B1%E5%93%8D">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">论文</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/05/08/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/">
+                      <a href="/20220508%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0">
                         <span class="hidden-mobile">测试文章</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>

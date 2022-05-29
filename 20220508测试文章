@@ -21,14 +21,14 @@
     <meta name="description" content="这是一篇测试文章，这是文章的一级标题一级标题下面只有这一行字 这是二级标题二级标题下试着插入一张图片使用doge图床  这是三级标题三级标题下试着插入一段视频    这是四级标题好像没什么可插入的了？插个表情包试试  :smirk: 插入emoji似乎失败了  这是五级标题插两行代码试试 hello world 1print &quot;hello world&quot;        大功告成了">
 <meta property="og:type" content="article">
 <meta property="og:title" content="测试文章">
-<meta property="og:url" content="https://www.randaho.com/2022/05/08/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/index.html">
+<meta property="og:url" content="https://www.randaho.com/20220508%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0">
 <meta property="og:site_name" content="randaho的博客">
 <meta property="og:description" content="这是一篇测试文章，这是文章的一级标题一级标题下面只有这一行字 这是二级标题二级标题下试着插入一张图片使用doge图床  这是三级标题三级标题下试着插入一段视频    这是四级标题好像没什么可插入的了？插个表情包试试  :smirk: 插入emoji似乎失败了  这是五级标题插两行代码试试 hello world 1print &quot;hello world&quot;        大功告成了">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://i.jpg.dog/file/jpg-dog/e8d90fcd78504bf7bca5b5039a88d3b6.png">
 <meta property="og:image" content="https://n.sinaimg.cn/tech/transform/407/w210h197/20220112/050e-2afe70bd4cf6c40e0a5837d9fbfc45ba.gif">
 <meta property="article:published_time" content="2022-05-08T07:03:28.000Z">
-<meta property="article:modified_time" content="2022-05-08T09:13:29.699Z">
+<meta property="article:modified_time" content="2022-05-10T08:04:22.290Z">
 <meta property="article:author" content="randaho">
 <meta property="article:tag" content="测试文章">
 <meta name="twitter:card" content="summary_large_image">
@@ -306,7 +306,7 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/05/10/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86%E8%AE%A1%E5%88%92/">
+                      <a href="/20220510%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86%E8%AE%A1%E5%88%92">
                         <i class="iconfont icon-arrowleft"></i>
                         <span class="hidden-mobile">知识整理计划</span>
                         <span class="visible-mobile">上一篇</span>
