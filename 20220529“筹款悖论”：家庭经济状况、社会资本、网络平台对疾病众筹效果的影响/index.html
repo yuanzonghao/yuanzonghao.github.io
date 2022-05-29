@@ -21,7 +21,7 @@
     <meta name="description" content="“筹款悖论”：家庭经济状况、社会资本、网络平台对疾病众筹效果的影响——基于486份水滴筹爬虫样本的实证分析       注意：这是我和队友们今年3月参加学校小创获一等奖的论文，为方便夏令营老师查看，将此中文版本上传到我的个人博客，将在夏令营结束后锁定或删除，如需引用请邮件联系并注明出处。我的邮箱：blog@randaho.com。         摘要近年来，网络疾病众筹这一新兴筹资方式借助互联网">
 <meta property="og:type" content="article">
 <meta property="og:title" content="论文">
-<meta property="og:url" content="https://www.randaho.com/20220529%E2%80%9C%E7%AD%B9%E6%AC%BE%E6%82%96%E8%AE%BA%E2%80%9D%EF%BC%9A%E5%AE%B6%E5%BA%AD%E7%BB%8F%E6%B5%8E%E7%8A%B6%E5%86%B5%E3%80%81%E7%A4%BE%E4%BC%9A%E8%B5%84%E6%9C%AC%E3%80%81%E7%BD%91%E7%BB%9C%E5%B9%B3%E5%8F%B0%E5%AF%B9%E7%96%BE%E7%97%85%E4%BC%97%E7%AD%B9%E6%95%88%E6%9E%9C%E7%9A%84%E5%BD%B1%E5%93%8D">
+<meta property="og:url" content="https://www.randaho.com/20220529%E2%80%9C%E7%AD%B9%E6%AC%BE%E6%82%96%E8%AE%BA%E2%80%9D%EF%BC%9A%E5%AE%B6%E5%BA%AD%E7%BB%8F%E6%B5%8E%E7%8A%B6%E5%86%B5%E3%80%81%E7%A4%BE%E4%BC%9A%E8%B5%84%E6%9C%AC%E3%80%81%E7%BD%91%E7%BB%9C%E5%B9%B3%E5%8F%B0%E5%AF%B9%E7%96%BE%E7%97%85%E4%BC%97%E7%AD%B9%E6%95%88%E6%9E%9C%E7%9A%84%E5%BD%B1%E5%93%8D/index.html">
 <meta property="og:site_name" content="randaho的博客">
 <meta property="og:description" content="“筹款悖论”：家庭经济状况、社会资本、网络平台对疾病众筹效果的影响——基于486份水滴筹爬虫样本的实证分析       注意：这是我和队友们今年3月参加学校小创获一等奖的论文，为方便夏令营老师查看，将此中文版本上传到我的个人博客，将在夏令营结束后锁定或删除，如需引用请邮件联系并注明出处。我的邮箱：blog@randaho.com。         摘要近年来，网络疾病众筹这一新兴筹资方式借助互联网">
 <meta property="og:locale" content="zh_CN">
@@ -31,7 +31,7 @@
 <meta property="og:image" content="https://i.jpg.dog/file/jpg-dog/4feb9fb45ce58283e89ae785980abbc6.png">
 <meta property="og:image" content="https://i.jpg.dog/file/jpg-dog/c5c9691d4e9ececc97909350b79280b1.png">
 <meta property="article:published_time" content="2022-05-29T15:04:59.000Z">
-<meta property="article:modified_time" content="2022-05-29T15:13:29.852Z">
+<meta property="article:modified_time" content="2022-05-29T15:30:16.080Z">
 <meta property="article:author" content="randaho">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://i.jpg.dog/file/jpg-dog/86afc1b05bfb7ec80452d4a5a20ac8db.png">
@@ -204,7 +204,7 @@
   
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      18k 字
+      17k 字
     </span>
   
 
@@ -213,7 +213,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      150 分钟
+      145 分钟
     </span>
   
 
@@ -311,48 +311,56 @@
 <h2 id="3-实证研究设计"><a href="#3-实证研究设计" class="headerlink" title="3 实证研究设计"></a>3 实证研究设计</h2><h3 id="3-1-样本和数据"><a href="#3-1-样本和数据" class="headerlink" title="3.1 样本和数据"></a><strong>3.1</strong> <strong>样本和数据</strong></h3><p>水滴筹由水滴公司于2016年推出，当前是中国最大的互联网社交大病众筹平台，其存续期间已帮助服务了数百万名大病患者进行公益筹款。在数据获取的过程中发现患者会将筹款的信息分享到百度贴吧、微博、水滴官方微信视频号等平台上，以实现筹款需求的传播。故通过python编写爬虫脚本，先在上述三种论坛上爬取所有分享的筹款链接，再分别依次对这些链接中筹款的进度、筹款者的信息等内容进行爬取，爬取到的数据字段经整理如下：</p>
 <center>表1 爬取到的数据字段整理</center>
 
+<div class="table-container">
 <table>
 <thead>
 <tr>
-<th align="center"><strong>变量类型</strong></th>
-<th align="center"><strong>变量名称</strong></th>
+<th style="text-align:center"><strong>变量类型</strong></th>
+<th style="text-align:center"><strong>变量名称</strong></th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">筹款效果</td>
-<td align="center">已筹金额，所需金额，帮助次数</td>
+<tbody>
+<tr>
+<td style="text-align:center">筹款效果</td>
+<td style="text-align:center">已筹金额，所需金额，帮助次数</td>
 </tr>
 <tr>
-<td align="center">社会资本</td>
-<td align="center">证实情况人数，患者为学生，发起者为学生，教师身份，党员或军人身份，医疗工作者身份</td>
+<td style="text-align:center">社会资本</td>
+<td style="text-align:center">证实情况人数，患者为学生，发起者为学生，教师身份，党员或军人身份，医疗工作者身份</td>
 </tr>
 <tr>
-<td align="center">筹款人基本信息</td>
-<td align="center">性别，年龄</td>
+<td style="text-align:center">筹款人基本信息</td>
+<td style="text-align:center">性别，年龄</td>
 </tr>
 <tr>
-<td align="center">控制变量</td>
-<td align="center">是否购买医疗保险、财产险、人身险，东部地区，东北地区，西部地区，地方人均GDP，是否为城镇人口，筹款标题质量，在其他平台筹到款</td>
+<td style="text-align:center">控制变量</td>
+<td style="text-align:center">是否购买医疗保险、财产险、人身险，东部地区，东北地区，西部地区，地方人均GDP，是否为城镇人口，筹款标题质量，在其他平台筹到款</td>
 </tr>
 <tr>
-<td align="center">链接来源（以来自百度贴吧为参照）</td>
-<td align="center">来自水滴视频公众号，来自微博</td>
+<td style="text-align:center">链接来源（以来自百度贴吧为参照）</td>
+<td style="text-align:center">来自水滴视频公众号，来自微博</td>
 </tr>
 <tr>
-<td align="center">其他变量</td>
-<td align="center">白血病，肺炎，意外伤害，脑损伤，新生儿疾病，心血管疾病，贫血，多类型疾病，其他疾病，是否为低保户</td>
+<td style="text-align:center">其他变量</td>
+<td style="text-align:center">白血病，肺炎，意外伤害，脑损伤，新生儿疾病，心血管疾病，贫血，多类型疾病，其他疾病，是否为低保户</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <p>经过对数据的整合，共得到筹款信息548条。除去缺失值较多的记录、重复的记录，剩余有效样本486条。</p>
-<p>必须指出，由于研究的对象是筹款项目的筹款效果，理论上以筹款效率（即已筹金额&#x2F;筹款持续时间）做因变量比已筹金额更优。但是考虑到大部分筹款的现金流入并非遵循均匀分布、难以分析，且获取数据时特意设定了一个最晚期限，避免了一些正在进行的筹款远未筹额完毕的可能，最终依旧选择已筹金额作为因变量。</p>
+<p>必须指出，由于研究的对象是筹款项目的筹款效果，理论上以筹款效率（即已筹金额/筹款持续时间）做因变量比已筹金额更优。但是考虑到大部分筹款的现金流入并非遵循均匀分布、难以分析，且获取数据时特意设定了一个最晚期限，避免了一些正在进行的筹款远未筹额完毕的可能，最终依旧选择已筹金额作为因变量。</p>
 <h3 id="3-2-部分变量说明"><a href="#3-2-部分变量说明" class="headerlink" title="3.2 部分变量说明"></a><strong>3.2</strong> <strong>部分变量说明</strong></h3><p>本研究中的被解释变量是筹款项目的筹款效果，解释变量是社会资本、登上的公共网络平台、家庭经济状况、年龄、性别、患病种类，控制变量包括筹款人是否购买了医疗保险、是否为城镇人口、筹款人所在市经济地域及其2021年的地方人均gdp和筹款标题优质程度。研究还选取了转发次数作为中介变量，并验证了其在多个解释变量与被解释变量之间的中介效应。</p>
 <h4 id="3-2-1-筹款效果"><a href="#3-2-1-筹款效果" class="headerlink" title="3.2.1 筹款效果"></a><strong>3.2.1</strong> <strong>筹款效果</strong></h4><p>研究选取了筹款效果作为因变量，以截至筹款项目被统计时的项目已筹金额作为度量筹款效果的变量。因为在样本筛选时就已经剔除了筹款持续时间小于20天的样本，而几乎所有筹款在筹款开始20天后都不再能够得到更多的筹款。因此，截至被统计时刻的项目已筹金额是能够最好地反映筹款效果的变量。</p>
 <h4 id="3-2-2-社会资本"><a href="#3-2-2-社会资本" class="headerlink" title="3.2.2 社会资本"></a><strong>3.2.2</strong> <strong>社会资本</strong></h4><p>本文所称的社会资本，指代的是筹款人的同质性社会资本与异质性社会资本的加总。社会资本用两个衡量指标进行度量，分别是筹款项目的证实情况人数和筹款人是否具有特殊的社会地位或身份。</p>
 <p>筹款的证实情况人数能够最直接的反映与筹款人间有强社会关系联结的人数，这部分人包括筹款人的亲属、亲近的朋友、邻居等。只有与筹款人间有强社会关系的人，才会更积极地在筹款页面上为筹款人证实情况，以提高筹款人筹款信息的可信度，帮助其筹集到更多的善款。此外，筹款人的社会地位和特殊身份，如学生、军人、教师、医生等也能反映出筹款人拥有较高的社会资本（林南、俞弘强，2003），这些身份是与筹款人的社会资本相互转化、相互绑定的。因此，选取证实情况人数和特殊身份作为度量社会资本的变量。</p>
 <h4 id="3-2-3-家庭经济状况"><a href="#3-2-3-家庭经济状况" class="headerlink" title="3.2.3 家庭经济状况"></a><strong>3.2.3</strong> <strong>家庭经济状况</strong></h4><p>筹款人家庭经济状况的度量指标包括筹款人家庭年收入、家庭总资产价值、家庭债务情况三个变量。筹款人的家庭年收入、资产价值和负债情况综合起来，能够较为全面地衡量筹款人的家庭经济状况，因此选择这三个变量作为筹款人家庭经济状况的度量指标。</p>
-<h4 id="3-2-4-控制变量"><a href="#3-2-4-控制变量" class="headerlink" title="3.2.4 控制变量"></a><strong>3.2.4</strong> <strong>控制变量</strong></h4><p>控制变量包括筹款人是否购买了医疗保险、人身险、财产险，是否为城镇人口，筹款人所在市的经济地域以及其2021年的地方人均gdp，在其他平台筹到款以及由五名研究者对标题进行加权打分得到的变量筹款标题优质程度，打分公式如下：<br>$$<br>Goodtitle&#x3D;\frac {\sum_{i}^n w_iscore_i}{\sum_{i}^n w_i}<br>$$<br>这些变量既不能明显反映筹款人的社会资本和经济状况，又可能会影响最终的筹款效果，为了排除这些变量对研究结论的影响，将其作为控制变量添加到回归模型中。</p>
+<h4 id="3-2-4-控制变量"><a href="#3-2-4-控制变量" class="headerlink" title="3.2.4 控制变量"></a><strong>3.2.4</strong> <strong>控制变量</strong></h4><p>控制变量包括筹款人是否购买了医疗保险、人身险、财产险，是否为城镇人口，筹款人所在市的经济地域以及其2021年的地方人均gdp，在其他平台筹到款以及由五名研究者对标题进行加权打分得到的变量筹款标题优质程度，打分公式如下：</p>
+<script type="math/tex; mode=display">
+Goodtitle=\frac {\sum_{i}^n w_iscore_i}{\sum_{i}^n w_i}</script><p>这些变量既不能明显反映筹款人的社会资本和经济状况，又可能会影响最终的筹款效果，为了排除这些变量对研究结论的影响，将其作为控制变量添加到回归模型中。</p>
 <h4 id="3-2-5-其他变量"><a href="#3-2-5-其他变量" class="headerlink" title="3.2.5 其他变量"></a><strong>3.2.5</strong> <strong>其他变量</strong></h4><p>包括疾病种类（以恶性肿瘤作为基准组）以及是否为低保户。这两种变量并不适宜归纳入上述其他类型的变量中，但是某种意义上可以作为社会资本或者社会关注度的体现，故将其纳入回归模型中。</p>
-<h3 id="3-3-模型"><a href="#3-3-模型" class="headerlink" title="3.3 模型"></a><strong>3.3</strong> <strong>模型</strong></h3><p>根据上文的变量分类，可列出精简的回归方程如下：<br>$$<br>Fundraised &#x3D; \theta_1socialcapital+\theta_2economicstatus+\theta_3control+\theta_4others+\beta_1gender+\beta_2age<br>$$<br>其中，$\theta_1$ ~ $\theta_4$分别代表社会资本、家庭经济状况、控制变量、其他变量的系数矩阵。$\beta_1$和$\beta_2$分别代表性别、年龄的系数。</p>
+<h3 id="3-3-模型"><a href="#3-3-模型" class="headerlink" title="3.3 模型"></a><strong>3.3</strong> <strong>模型</strong></h3><p>根据上文的变量分类，可列出精简的回归方程如下：</p>
+<script type="math/tex; mode=display">
+Fundraised = \theta_1socialcapital+\theta_2economicstatus+\theta_3control+\theta_4others+\beta_1gender+\beta_2age</script><p>其中，$\theta_1$ ~ $\theta_4$分别代表社会资本、家庭经济状况、控制变量、其他变量的系数矩阵。$\beta_1$和$\beta_2$分别代表性别、年龄的系数。</p>
 <h2 id="4-实证结果与分析"><a href="#4-实证结果与分析" class="headerlink" title="4 实证结果与分析"></a>4 实证结果与分析</h2><h3 id="4-1-数据预处理与描述性统计"><a href="#4-1-数据预处理与描述性统计" class="headerlink" title="4.1 数据预处理与描述性统计"></a><strong>4.1</strong> <strong>数据预处理与描述性统计</strong></h3><h4 id="4-1-1-数据的预处理"><a href="#4-1-1-数据的预处理" class="headerlink" title="4.1.1 数据的预处理"></a><strong>4.1.1</strong> <strong>数据的预处理</strong></h4><p>对得到数据进行预处理，包括缺失值的填充与异常值的处理。对于异常值，观察到转发次数、证实情况人数两个变量出现较多的异常值，故采取将异常值设定为上、下95%分位数的方式进行简单处理。在缺失值方面，对转发次数、证实情况人数等连续、可量化的变量缺失值采取均值填补的方式进行补充，对是否为城镇人口、房产、车产等操作上不连续且难以量化的变量采取众数填补的方式进行补充。</p>
 <h4 id="4-1-2-数据的简单描述"><a href="#4-1-2-数据的简单描述" class="headerlink" title="4.1.2 数据的简单描述"></a><strong>4.1.2</strong> <strong>数据的简单描述</strong></h4><p>利用R软件对部分重要数据作热力图，结果如下：</p>
 <p><img src="https://i.jpg.dog/file/jpg-dog/436d0afe901d4b398226d12159d7aaec.png" srcset="/img/loading.gif" lazyload alt="图2 部分变量间相关性大小的热力图"></p>
@@ -360,112 +368,118 @@
 
 <p>从热力图可以明显看出，作为研究因变量的已筹金额与帮助次数、转发次数、证实情况人数成明显的正相关关系。而患者年龄同已筹金额、帮助次数等呈负相关关系，且患者年龄较高的，其筹款标题往往欠缺新意、令人难以眼前一亮。</p>
 <p>通过对患者性别与患者疾病种类作饼图分析，可看出数据中患者大部分为男性，所患疾病种类以白血病、恶性肿瘤、脑损伤为主。</p>
-<p><img src="https://i.jpg.dog/file/jpg-dog/aecb1a0dd60ecab6f5ead34e954734a8.png" srcset="/img/loading.gif" lazyload></p>
-<center>图3  患者性别分布
+<p><img src="https://i.jpg.dog/file/jpg-dog/aecb1a0dd60ecab6f5ead34e954734a8.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<center>图3  患者性别分布</center>
 
-<p><img src="https://i.jpg.dog/file/jpg-dog/4feb9fb45ce58283e89ae785980abbc6.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://i.jpg.dog/file/jpg-dog/4feb9fb45ce58283e89ae785980abbc6.png" srcset="/img/loading.gif" lazyload alt=""></p>
 <center>图4 患者疾病种类分布</center>
 
 <h3 id="4-2-数据分析结果"><a href="#4-2-数据分析结果" class="headerlink" title="4.2 数据分析结果"></a><strong>4.2</strong> <strong>数据分析结果</strong></h3><p>正式数据分析时，为了提高模型的解释性，在原变量的基础上增添一系列交互项，包括性别、是否来自水滴视频或微博对其他各个连续类变量的交互项；此外，对年龄等产生的影响可能并非一元线性的连续型变量构造了二次项。通过逐步回归进行选元后，得到包含交互项、二次项且变量个数适中、模型R方较大的模型。最终的模型R方达到0.57。此处取0.05的显著性水平，展示最终模型中显著的变量：</p>
-<center>表2 基于AIC准则的逐步回归结果
+<center>表2 基于AIC准则的逐步回归结果</center>
 
+<div class="table-container">
 <table>
 <thead>
 <tr>
 <th>变量名</th>
-<th align="left">系数</th>
+<th style="text-align:left">系数</th>
 <th>t值</th>
 <th>p值</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>转发次数</td>
-<td align="left">$29.46\pm8.02$</td>
+<td style="text-align:left">$29.46\pm8.02$</td>
 <td>3.672</td>
 <td>&lt; 0.01</td>
 </tr>
 <tr>
 <td>证实情况人数</td>
-<td align="left">$658.2\pm257.2$</td>
+<td style="text-align:left">$658.2\pm257.2$</td>
 <td>2.559</td>
 <td>0.011</td>
 </tr>
 <tr>
 <td>所需金额</td>
-<td align="left">$0.0186\pm0.0067$</td>
+<td style="text-align:left">$0.0186\pm0.0067$</td>
 <td>2.764</td>
 <td>0.019</td>
 </tr>
 <tr>
 <td>患者为学生</td>
-<td align="left">$38010\pm9285$</td>
+<td style="text-align:left">$38010\pm9285$</td>
 <td>4.094</td>
 <td>&lt; 0.01</td>
 </tr>
 <tr>
 <td>患多类型疾病</td>
-<td align="left">$24360\pm8180$</td>
+<td style="text-align:left">$24360\pm8180$</td>
 <td>2.978</td>
 <td>&lt; 0.01</td>
 </tr>
 <tr>
 <td>来自水滴视频</td>
-<td align="left">$14260\pm8026$</td>
+<td style="text-align:left">$14260\pm8026$</td>
 <td>3.179</td>
 <td>&lt; 0.01</td>
 </tr>
 <tr>
 <td>Gender_debt（负债对性别的交互项)</td>
-<td align="left">$220.4\pm87.1$</td>
+<td style="text-align:left">$220.4\pm87.1$</td>
 <td>2.528</td>
 <td>0.012</td>
 </tr>
 <tr>
 <td>Gender_asset（家庭资产对性别的交互项)</td>
-<td align="left">$-242.2\pm115.6$</td>
+<td style="text-align:left">$-242.2\pm115.6$</td>
 <td>-2.095</td>
 <td>0.037</td>
 </tr>
 <tr>
 <td>Gender_forward（转发次数对性别的交互项）</td>
-<td align="left">$-20.84\pm5.99$</td>
+<td style="text-align:left">$-20.84\pm5.99$</td>
 <td>-3.478</td>
 <td>&lt; 0.01</td>
 </tr>
 <tr>
 <td>Forward_shuidi（转发次数对是否登上水滴视频官方号的交互项）</td>
-<td align="left">$67.56\pm8.76$</td>
+<td style="text-align:left">$67.56\pm8.76$</td>
 <td>7.712</td>
 <td>&lt; 0.01</td>
 </tr>
 <tr>
 <td>Forward_weibo（转发次数对是否登上微博的交互项）</td>
-<td align="left">$57.23\pm11.87$</td>
+<td style="text-align:left">$57.23\pm11.87$</td>
 <td>4.821</td>
 <td>&lt; 0.01</td>
 </tr>
 <tr>
 <td>Confirm_shuidi（证实情况人数对是否登上水滴视频官方号的交互项）</td>
-<td align="left">$-874.4\pm287.5$</td>
+<td style="text-align:left">$-874.4\pm287.5$</td>
 <td>-3.042</td>
 <td>&lt; 0.01</td>
 </tr>
 <tr>
 <td>Confirm_weibo（证实情况人数对是否登上微博的交互项）</td>
-<td align="left">$-927.6\pm316.9$</td>
+<td style="text-align:left">$-927.6\pm316.9$</td>
 <td>-2.927</td>
 <td>&lt; 0.01</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <p>对全模型和逐步回归得到的选模型分别进行了自相关性、多重共线性的检验。Dw检验统计量为1.81，可以断定不存在自相关性；而在通过方差扩大因子法分析多重共线性时，发现对于不引入任何交互项、二次项的模型，每一个变量的vif都不高于10，故可以断定模型变量本身不存在自相关问题。综上，回归模型符合假设，其结果具有可信性。</p>
 <p>通过对上表所列的具有较高显著性的变量的分析，可以得出以下结论：</p>
 <h4 id="4-2-1-转发次数对最终筹到金额具有显著的正向影响。"><a href="#4-2-1-转发次数对最终筹到金额具有显著的正向影响。" class="headerlink" title="4.2.1 转发次数对最终筹到金额具有显著的正向影响。"></a><strong>4.2.1</strong> <strong>转发次数对最终筹到金额具有显著的正向影响。</strong></h4><p>平均每多一个转发，最终筹到金额就会增加29元左右。证实情况人数对最终筹到金额有较显著的影响，每多一个人证实情况，最终筹到款平均增加658元。必须指出这两个变量都能直接体现筹款者的社会资本：社会资本高的人，愿意转发其筹款的人更多，愿意为其筹款真实性作证的人更多，筹款结果会更好。</p>
 <h4 id="4-2-2-患者为学生时，筹款效果显著更好。"><a href="#4-2-2-患者为学生时，筹款效果显著更好。" class="headerlink" title="4.2.2 患者为学生时，筹款效果显著更好。"></a><strong>4.2.2</strong> <strong>患者为学生时，筹款效果显著更好。</strong></h4><p>平均比非学生患者的筹款多筹到38010元。这可以从公众对学生的关心，以及学生在学校的特殊人脉关系加以解释。</p>
-<h4 id="4-2-3-从和是否登上水滴视频官方号-x2F-微博的相关交互项可以得出两个结论："><a href="#4-2-3-从和是否登上水滴视频官方号-x2F-微博的相关交互项可以得出两个结论：" class="headerlink" title="4.2.3 从和是否登上水滴视频官方号&#x2F;微博的相关交互项可以得出两个结论："></a><strong>4.2.3</strong> <strong>从和是否登上水滴视频官方号&#x2F;微博的相关交互项可以得出两个结论：</strong></h4><p>一是，转发次数根据筹款平台的不同，其对筹到金额得影响不同。从交互项可以看出，相比起贴吧平台，水滴平台上的筹款每多一个转发，带来的筹到金额的提高量多大约67，这意味着水滴视频平台上每一个转发量带来的筹款收益是贴吧平台上的将近4倍；同理，微博平台上转发量的筹款收益是贴吧平台上的3倍多。这说明筹款平台作为传播媒介资本，对筹款效果产生的重要的影响。</p>
+<h4 id="4-2-3-从和是否登上水滴视频官方号-微博的相关交互项可以得出两个结论："><a href="#4-2-3-从和是否登上水滴视频官方号-微博的相关交互项可以得出两个结论：" class="headerlink" title="4.2.3 从和是否登上水滴视频官方号/微博的相关交互项可以得出两个结论："></a><strong>4.2.3</strong> <strong>从和是否登上水滴视频官方号/微博的相关交互项可以得出两个结论：</strong></h4><p>一是，转发次数根据筹款平台的不同，其对筹到金额得影响不同。从交互项可以看出，相比起贴吧平台，水滴平台上的筹款每多一个转发，带来的筹到金额的提高量多大约67，这意味着水滴视频平台上每一个转发量带来的筹款收益是贴吧平台上的将近4倍；同理，微博平台上转发量的筹款收益是贴吧平台上的3倍多。这说明筹款平台作为传播媒介资本，对筹款效果产生的重要的影响。</p>
 <p>二是，水滴视频平台和微博平台上的筹款的证实情况人数似乎会对筹到金额产生负向影响，这虽然从符号上是不好解释的，但可以说明登上这两个平台的筹款无需通过证实情况的人提高可信度、就可以吸纳大量的筹款。</p>
 <h4 id="4-2-4-除去上述指标，数据中家庭资产、年收入、债务情况、地域相关指标、筹款标题质量等变量都对因变量没有显著的影响。"><a href="#4-2-4-除去上述指标，数据中家庭资产、年收入、债务情况、地域相关指标、筹款标题质量等变量都对因变量没有显著的影响。" class="headerlink" title="4.2.4 除去上述指标，数据中家庭资产、年收入、债务情况、地域相关指标、筹款标题质量等变量都对因变量没有显著的影响。"></a><strong>4.2.4</strong> <strong>除去上述指标，数据中家庭资产、年收入、债务情况、地域相关指标、筹款标题质量等变量都对因变量没有显著的影响。</strong></h4><p>筹到款与患者自身的需求、患者的客观经济条件、文化资本等没有明显的关系。此外，尽管在统计学意义上所需金额的影响是显著的，但是其系数只有大约0.02，也就是说平均每多一元筹款需求，只能让筹到款增加两分钱，实在是杯水车薪。</p>
 <h4 id="综上，转发次数对最终筹到金额具有决定性的影响作用。"><a href="#综上，转发次数对最终筹到金额具有决定性的影响作用。" class="headerlink" title="综上，转发次数对最终筹到金额具有决定性的影响作用。"></a><strong>综上，转发次数对最终筹到金额具有决定性的影响作用。</strong></h4><p>事实上，如果把转发次数从模型中剔除，则模型的R方只有不到0.3。为了研究影响转发次数的因素，进行了各变量对转发次数的回归，思路与上文相仿。最终摘取0.05水平下显著的变量如下：</p>
-<p>表3 各变量对转发次数的回归结果</p>
+<center>表3 各变量对转发次数的回归结果</center>
+
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -475,7 +489,8 @@
 <th>p值</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>证实情况人数</td>
 <td>$20.6\pm2.3$</td>
 <td>9.084</td>
@@ -511,11 +526,15 @@
 <td>1.940</td>
 <td>0.053</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <p>可见，证实情况人数越多、年收入越高、具有教师身份的，其筹款的转发次数越多；此外，对于男性患者，若其具学生身份的子女发起筹款，则转发次数会更多；登上水滴视频平台的，筹款者们对其负债情况更为敏感，高负债者能获得更多筹款。这些因素分别代表了筹款人的人际资本、经济条件、身份人际条件、媒介条件。</p>
 <h3 id="4-3-中介效应分析"><a href="#4-3-中介效应分析" class="headerlink" title="4.3 中介效应分析"></a><strong>4.3</strong> <strong>中介效应分析</strong></h3><p>上文指出转发次数对最终筹到金额具有显著的影响作用，而其他一系列因素虽然对转发次数显著，但是它们自身对筹到金额的影响却不显著。因此，考虑将转发次数作为中介变量，利用中介效应分析法分析各个因素作用于筹到金额的机制。</p>
 <p>所谓中介效应分析，是指当自变量X通过某一变量M对因变量Y产生一定影响时，称M为X和Y的中介变量。在已知X和Y关系的基础上研究其中介作用，探索产生这一关系的内部作用机制。在本课题中，由于观察到转发次数对其他各个变量的回归具有较高的解释性，而筹到金额的回归必须将转发次数纳入解释变量才能有理想的模型解释力，故很自然地想到转发次数可能扮演中介变量的角色。故通过R软件的mediate包进行中介变量分析，下文列出经分析后可明显看出通过中介变量作用于因变量的解释变量：</p>
-<p>表4 对转发次数的中介效应分析</p>
+<center>表4 对转发次数的中介效应分析</center>
+
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -526,7 +545,8 @@
 <th>p值</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>证实情况人数</td>
 <td>1406.02</td>
 <td>787.12</td>
@@ -568,14 +588,16 @@
 <td>0.642</td>
 <td>0.68</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <p>可看出，证实情况人数、其关于是否登上水滴视频的交互项、优质标题以及学生发起的男性患者筹款的确是通过先行影响转发次数，进而对筹到金额产生影响。也就是说，证实情况人数更多的筹款，会获得更多的转发次数。由于转发次数越多，期望获得的筹款更多，且证实情况人数对筹款金额的直接影响不显著，故总地来看证实情况人数越多的筹款，最终筹得金额越高。这可能是因为证实情况的人可以作为筹款传播树的初始节点，这样的节点越多，筹款最开始的传播面越广。</p>
-<p><img src="https://i.jpg.dog/file/jpg-dog/c5c9691d4e9ececc97909350b79280b1.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://i.jpg.dog/file/jpg-dog/c5c9691d4e9ececc97909350b79280b1.png" srcset="/img/loading.gif" lazyload alt=""></p>
 <center>图5 转发次数对证实情况人数的中介效应
-    
+
 </center>
 
-<p>​	必须指出，家庭年收入与患者的教师身份虽然对转发次数有显著影响，但是对筹到金额的影响并不显著，通过中介变量分析可以看出原因：这两个变量对筹到金额均有负的直接效应，与中介效应相抵消。然而为何更多的年收入、教师身份会导致负值的直接效应，唯一的解释是，这些群体缺失筹到更多金额所需的其他种类的社会资本。</p>
+<p>​    必须指出，家庭年收入与患者的教师身份虽然对转发次数有显著影响，但是对筹到金额的影响并不显著，通过中介变量分析可以看出原因：这两个变量对筹到金额均有负的直接效应，与中介效应相抵消。然而为何更多的年收入、教师身份会导致负值的直接效应，唯一的解释是，这些群体缺失筹到更多金额所需的其他种类的社会资本。</p>
 <p><strong>根据以上结果，对前文所做的假设进行总结如下：</strong></p>
 <p>1、整体上看，假设1成立。从最终模型来看，转发次数、证实情况人数、学生身份、男性身份、登上权威平台都是促进筹款的有力因素，它们都能够认为是社会资本的体现。</p>
 <p>2、假设2和3成立，登上更具权威平台（如水滴视频公众号）的筹款每增加一次转发，其筹款金额的增加幅度明显提高。由于筹款的转发次数恒为正，故当其他因素不变时，登上权威平台能够带来更好的筹款效果。</p>
@@ -614,12 +636,12 @@
 <p>[19] 郑晓莹，彭泗清，彭璐珞.“达”则兼济天下?社会比较对亲社会行为的影响及心理机制[J].心理学报,2015,(2):243-250</p>
 <p>[20] 钟玉英.第三次分配视角下网络公益众筹助力医疗救助的发力点及监管重点[J].中国卫生政策研究,2021,(11):49-54</p>
 <p>[21]钟智锦.社交媒体中的公益众筹：微公益的筹款能力和信息透明研究[J].新闻与传播研究,2015,(8):68-83，127-128</p>
-<p>[22]Bassani,G., Marinelli,N.,&amp; Vismara,S.(2019).Crowdfunding in healthcare. *Journal of Technology Transfer,4,*1290-1310</p>
-<p>[23]DiMaggio,P.,&amp; Garip,F.(2011).How Network Externalities Can Exacerbate Intergroup Inequality. *American Journal of Sociology,6,*1887-1933.</p>
-<p>[24]Jie,R., [Viju](<a target="_blank" rel="noopener" href="http://hfgga95c946ced98d4ea6s5nw9uc9v5uxo6bqb.fhaz.libproxy.ruc.edu.cn/home/search?sw=6&amp;sw-input=Raghupathi">http://hfgga95c946ced98d4ea6s5nw9uc9v5uxo6bqb.fhaz.libproxy.ruc.edu.cn/home/search?sw=6&amp;sw-input=Raghupathi</a> Viju),R.,&amp; [Wullianallur](<a target="_blank" rel="noopener" href="http://hfgga95c946ced98d4ea6s5nw9uc9v5uxo6bqb.fhaz.libproxy.ruc.edu.cn/home/search?sw=6&amp;sw-input=Raghupathi">http://hfgga95c946ced98d4ea6s5nw9uc9v5uxo6bqb.fhaz.libproxy.ruc.edu.cn/home/search?sw=6&amp;sw-input=Raghupathi</a> Wullianallur),R.(2020).Understanding the dimensions of medical crowdfunding: A visual analytics approach. *Journal of Medical Internet Research,7,*e18813 </p>
+<p>[22]Bassani,G., Marinelli,N.,&amp; Vismara,S.(2019).Crowdfunding in healthcare. <em>Journal of Technology Transfer,4,</em>1290-1310</p>
+<p>[23]DiMaggio,P.,&amp; Garip,F.(2011).How Network Externalities Can Exacerbate Intergroup Inequality. <em>American Journal of Sociology,6,</em>1887-1933.</p>
+<p>[24]Jie,R., <a target="_blank" rel="noopener" href="http://hfgga95c946ced98d4ea6s5nw9uc9v5uxo6bqb.fhaz.libproxy.ruc.edu.cn/home/search?sw=6&amp;sw-input=Raghupathi Viju">Viju</a>,R.,&amp; <a target="_blank" rel="noopener" href="http://hfgga95c946ced98d4ea6s5nw9uc9v5uxo6bqb.fhaz.libproxy.ruc.edu.cn/home/search?sw=6&amp;sw-input=Raghupathi Wullianallur">Wullianallur</a>,R.(2020).Understanding the dimensions of medical crowdfunding: A visual analytics approach. <em>Journal of Medical Internet Research,7,</em>e18813 </p>
 <p>[25]Jeremy,S.,&amp; Valorie,C.(2020).Is there room for privacy in medical crowdfunding? <a target="_blank" rel="noopener" href="http://hfiiz82246a9f15464d5fsxunkkq9kffkw6bbf.fcya.libproxy.ruc.edu.cn/nav/mag/info?mags=a17ad88903f1b8b79c043e2a986afb09">Journal of medical ethics</a>,12,E49.  </p>
-<p>[26][Sura,S., ](<a target="_blank" rel="noopener" href="http://hfgga95c946ced98d4ea6s5nw9uc9v5uxo6bqb.fhaz.libproxy.ruc.edu.cn/home/search?sw=6&amp;sw-input=Suaini">http://hfgga95c946ced98d4ea6s5nw9uc9v5uxo6bqb.fhaz.libproxy.ruc.edu.cn/home/search?sw=6&amp;sw-input=Suaini</a> Sura)[Ahn,J.,&amp;](<a target="_blank" rel="noopener" href="http://hfgga95c946ced98d4ea6s5nw9uc9v5uxo6bqb.fhaz.libproxy.ruc.edu.cn/home/search?sw=6&amp;sw-input=Jongchang">http://hfgga95c946ced98d4ea6s5nw9uc9v5uxo6bqb.fhaz.libproxy.ruc.edu.cn/home/search?sw=6&amp;sw-input=Jongchang</a> Ahn) [Lee](<a target="_blank" rel="noopener" href="http://hfgga95c946ced98d4ea6s5nw9uc9v5uxo6bqb.fhaz.libproxy.ruc.edu.cn/home/search?sw=6&amp;sw-input=Ook">http://hfgga95c946ced98d4ea6s5nw9uc9v5uxo6bqb.fhaz.libproxy.ruc.edu.cn/home/search?sw=6&amp;sw-input=Ook</a> Lee),O.(2017).Factors influencing intention to donate via social network site (SNS): From Asian’s perspective. *Telematics and Informatics,1,*164-176</p>
-<p>[27]Wu,Y., Zhang,X.,&amp; Xiao,Q.(2022).Appeal to the head and heart: The persuasive effects of medical crowdfunding charitable appeals on willingness to donate. *Information Processing &amp; Management,1,*102792</p>
+<p>[26]<a target="_blank" rel="noopener" href="http://hfgga95c946ced98d4ea6s5nw9uc9v5uxo6bqb.fhaz.libproxy.ruc.edu.cn/home/search?sw=6&amp;sw-input=Suaini Sura">Sura,S., </a><a target="_blank" rel="noopener" href="http://hfgga95c946ced98d4ea6s5nw9uc9v5uxo6bqb.fhaz.libproxy.ruc.edu.cn/home/search?sw=6&amp;sw-input=Jongchang Ahn">Ahn,J.,&amp;</a> <a target="_blank" rel="noopener" href="http://hfgga95c946ced98d4ea6s5nw9uc9v5uxo6bqb.fhaz.libproxy.ruc.edu.cn/home/search?sw=6&amp;sw-input=Ook Lee">Lee</a>,O.(2017).Factors influencing intention to donate via social network site (SNS): From Asian’s perspective. <em>Telematics and Informatics,1,</em>164-176</p>
+<p>[27]Wu,Y., Zhang,X.,&amp; Xiao,Q.(2022).Appeal to the head and heart: The persuasive effects of medical crowdfunding charitable appeals on willingness to donate. <em>Information Processing &amp; Management,1,</em>102792</p>
 
             </div>
             <hr>
@@ -644,7 +666,7 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/20220510%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86%E8%AE%A1%E5%88%92">
+                      <a href="/20220510%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86%E8%AE%A1%E5%88%92/">
                         <span class="hidden-mobile">知识整理计划</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
@@ -950,6 +972,48 @@
 
 
 
+
+  
+
+  
+    <!-- MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        loader: {
+          load: ['ui/lazy']
+        },
+        options: {
+          renderActions: {
+            findScript: [10, doc => {
+              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = { node: text, delim: '', n: 0 };
+                math.end = { node: text, delim: '', n: 0 };
+                doc.math.push(math);
+              });
+            }, '', false],
+            insertedScript: [200, () => {
+              document.querySelectorAll('mjx-container').forEach(node => {
+                let target = node.parentNode;
+                if (target.nodeName.toLowerCase() === 'li') {
+                  target.parentNode.classList.add('has-jax');
+                }
+              });
+            }, '', false]
+          }
+        }
+      };
+    </script>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" ></script>
+
+  
 
 
 
